@@ -1,3 +1,4 @@
+import Kitties from './kitties' // added by ajit
 import React, { createRef } from 'react'
 import {
   Container,
@@ -85,6 +86,9 @@ function Main() {
             <TemplateModule />
           </Grid.Row>
         </Grid>
+        <Grid.Row> // added by ajit
+          <Kitties /> // added by ajit
+        </Grid.Row> // added by ajit
       </Container>
       <DeveloperConsole />
     </div>
